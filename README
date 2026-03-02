@@ -1,0 +1,9 @@
+My simple vim config
+
+Setup:
+	setup.sh
+
+Plugins used:
+	- www.github.com/prabirshrestha/vim-lsp
+	- www.github.com/mattn/vim-lsp-settings
+
