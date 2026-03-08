@@ -24,6 +24,7 @@ set incsearch
 " Indent stuff
 set shiftwidth=4
 set tabstop=4
+set softtabstop=4
 
 set autoindent
 set smartindent
@@ -102,13 +103,13 @@ function! s:on_lsp_buffer_enabled() abort
 	nmap <buffer> gS <plug>(lsp-workspace-symbol-search)
 	nmap <buffer> gr <plug>(lsp-references)
 	nmap <buffer> gi <plug>(lsp-implementation)
-	nmap <buffer> gt <plug>(lsp-type-definition)
-	nmap <buffer> <leader>rn <plug>(lsp-rename)
+	nmap <buffer> g<C-t> <plug>(lsp-type-definition)
+	nmap <buffer> <leader>re <plug>(lsp-rename)
 	nmap <buffer> [g <plug>(lsp-previous-diagnostic)
 	nmap <buffer> ]g <plug>(lsp-next-diagnostic)
 	nmap <buffer> K <plug>(lsp-hover)
-	nnoremap <buffer> <expr><c-f> lsp#scroll(+4)
-	nnoremap <buffer> <expr><c-d> lsp#scroll(-4)
+	nnoremap <buffer> <expr><Tab> lsp#scroll(+4)
+	nnoremap <buffer> <expr><S-Tab> lsp#scroll(-4)
 
 	let g:lsp_format_sync_timeout = 1000
 	autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
