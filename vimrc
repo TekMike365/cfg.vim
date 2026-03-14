@@ -72,6 +72,12 @@ function! SetLeadMultispace()
 endfunction
 
 "
+" Commands
+"
+
+com VI vertical terminal
+
+"
 " Remaps/Keybinds
 "
 
