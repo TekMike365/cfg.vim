@@ -7,6 +7,9 @@ let mapleader=","
 set nobackup
 set nowritebackup
 
+set undofile
+set undodir=$HOME/.vim/vimundo
+
 " plugin things
 filetype plugin on
 filetype indent on
