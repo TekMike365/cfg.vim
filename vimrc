@@ -24,6 +24,8 @@ set rnu
 " show where pattern is while typing
 set incsearch
 
+set hls
+
 " Indent stuff
 set shiftwidth=4
 set tabstop=4
