@@ -43,7 +43,8 @@ set cc=80
 
 syntax on
 try
-	colorscheme lunaperche
+	#colorscheme lunaperche
+	colorscheme darkblue
 catch
 endtry
 
