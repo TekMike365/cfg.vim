@@ -35,7 +35,7 @@ set autoindent
 set smartindent
 set wrap
 
-set cc=80,78
+set cc=80
 
 "
 " Pretty/Looks
