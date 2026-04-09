@@ -83,9 +83,3 @@ endfunction
 
 com VI vertical terminal
 
-"
-" Remaps/Keybinds
-"
-
-nnoremap R gR
-
