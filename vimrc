@@ -77,9 +77,3 @@ function! SetLeadMultispace()
 	endif
 endfunction
 
-"
-" Commands
-"
-
-com VI vertical terminal
-
