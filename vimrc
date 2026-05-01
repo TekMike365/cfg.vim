@@ -48,7 +48,9 @@ try
 catch
 endtry
 
-set background=dark
+com LightMode set background=light
+com DarkMode set background=dark
+DarkMode
 
 " show whitespace
 set listchars=tab:>\ ,trail:~
